@@ -1,3 +1,3 @@
-# Strona warsztatu stolarskiego
+# Strona warsztatu stolarskiego (robocza)
 
 ## link -->
