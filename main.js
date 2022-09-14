@@ -20,7 +20,7 @@ for (const b of btn) {
     }
     if (b.className == "btn-execution") {
       executionDiv.scrollIntoView( {
-        behavior: 'smooth'
+        behavior: 'smooth',
       });
     }
     if (b.className == "btn-cooperation") {
