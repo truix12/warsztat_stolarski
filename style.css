@@ -280,17 +280,13 @@ ol {
   font-weight: 300;
 }
 
-.address {
-  line-height: 50px;
-}
-
 p {
   text-align: justify;
 }
 
 .footer-element .copyright {
   font-size: 12px;
-  color: rgb(105, 105, 105);
+  color: rgb(143, 143, 143);
   margin-bottom: 15px;
 }
 
@@ -468,6 +464,10 @@ p {
   .fb,
   .ig {
     width: 80px;
+  }
+
+  .footer-element .copyright {
+    font-size: 10px;
   }
 
   footer {
