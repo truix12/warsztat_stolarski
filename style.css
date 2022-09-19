@@ -5,7 +5,7 @@
 }
 
 html {
-  font-family: Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -187,7 +187,7 @@ ol {
   border-radius: 50%;
   color: white;
   cursor: pointer;
-  font-size: 44px;
+  font-size: 28px;
   line-height: 44px;
   width: 44px;
   height: 44px;
@@ -207,7 +207,7 @@ ol {
   border: none;
   border-radius: 50%;
   cursor: pointer;
-  font-size: 44px;
+  font-size: 34px;
   height: 44px;
   line-height: 44px;
   position: absolute;
@@ -252,6 +252,7 @@ ol {
 .footer-wrapper {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .footer-element {
@@ -279,8 +280,18 @@ ol {
   font-weight: 300;
 }
 
+.address {
+  line-height: 50px;
+}
+
 p {
   text-align: justify;
+}
+
+.footer-element .copyright {
+  font-size: 12px;
+  color: rgb(105, 105, 105);
+  margin-bottom: 15px;
 }
 
 @media only screen and (max-width: 850px) {
@@ -419,7 +430,7 @@ p {
   }
 
   footer {
-    margin-bottom: 100px;
+    margin-bottom: 120px;
   }
 }
 
@@ -458,12 +469,23 @@ p {
   .ig {
     width: 80px;
   }
+
+  footer {
+    margin-bottom: 100px;
+  }
 }
 
 @media only screen and (max-width: 539px) {
 
+  .description {
+    height: 75px;
+    margin-bottom: 35px;
+    margin-top: 0;
+  }
+
   .description p {
     text-align: center;
+    line-height: 18px;
   }
 }
 
@@ -481,6 +503,10 @@ p {
 
   .footer-contact img {
     margin: 0 15px 20px 15px;
+  }
+
+  footer {
+    margin-bottom: 80px;
   }
 }
 
