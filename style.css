@@ -277,6 +277,11 @@ ol {
   margin: 0 50px 30px 0;
 }
 
+.fb a,
+.ig a {
+  display: block;
+}
+
 p {
   text-align: justify;
 }
