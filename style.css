@@ -280,6 +280,7 @@ ol {
 .fb a,
 .ig a {
   display: block;
+  text-decoration: none;
 }
 
 p {
