@@ -272,6 +272,7 @@ ol {
 .footer-contact img {
   cursor: pointer;
   height: 40px;
+  text-decoration: none;
   width: 40px;
   margin: 0 50px 30px 0;
 }
@@ -292,6 +293,7 @@ span {
 }
 
 .copyright a {
+
   cursor: pointer;
   text-decoration: none;
   color: rgb(143, 143, 143);
